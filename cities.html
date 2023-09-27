@@ -18,30 +18,28 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     <title>RRR</title>
 </head>
-
-     
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-        <span class="navbar-toggler-icon"></span>
-
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-
-        </ul>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="insects.html ">Interesting Cities</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+    <li class="nav-link">
+      <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+    </li>
+    <li class="nav-link">
+      <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+    </li>
+ </ul>
+</div>
 
     </div>
 
  </nav>
 <body>
     <h1>Visiting cities By Ramya</h1>
+    
     <div class="container">
 
         <div class="row">
@@ -80,6 +78,108 @@
 
               The pixel breakpoint of col-sm is 576px once the screen size decreases below 576px the letter row breaks</p>
         </div>
+
+
+        <div>
+          <img src="g1.jpg" class="img-fluid" alt="GOA" width="300" height="400">
+          <img src="g2.jpg" class="img-fluid" alt="ONGOLE" width="300" height="400">
+          <img src="g3.jpg" class="img-fluid" alt="PUNE" width="300" height="400">
+      </div>
+      <div>
+          <img src="g1.jpg" class="img-thumbnail" alt="GOA" width="300" height="400">
+          <img src="g2.jpg" class="img-thumbnail" alt="ONGOLE" width="300" height="400">
+          <img src="g3.jpg" class="img-thumbnail" alt="PUNE" width="300" height="400">
+      </div>
+
+      <table class="table table-hover table-bordered table-sm table-striped">
+        <caption>Tables</caption>
+          <thead>
+            <tr class="table-dark">
+              <th scope="col">Letter</th>
+              <th scope="col">City</th>
+              <th scope="col">River</th>
+              <th scope="col">Tree</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table table-primary table-striped">
+              <th scope="row">G</th>
+              <td>GOA</td>
+              <td>Ganga</td>
+              <td>Gabrielle</td>
+            </tr>
+            <tr class="table-success">
+              <th scope="row">O</th>
+              <td>ONGOLE</td>
+              <td> Ong</td>
+              <td>Olive</td>
+            </tr>
+            <tr class="table-info">
+              <th scope="row">P</th>
+              <td>PUNE</td>
+              <td>Pairi</td>
+              <td>Pawpaw </td>
+            </tr>
+            <tr class="table-danger">
+              <th scope="row">A</th>
+              <td>ARAKU</td>
+              <td>Ajay River</td>
+              <td>Acacia Coral </td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">L</th>
+              <td>LADAKH</td>
+              <td>Lanva</td>
+              <td> lebbek</td>
+            </tr>
+            <tr class="table-secondary">
+              <th scope="row">A</th>
+              <td>ANAKAPALLI</td>
+              <td>Arabian Sea</td>
+              <td>Apple </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="btn-toolbar">
+          <div button type="button" class="btn btn-success">
+              <button type="button" class="btn">G</button>
+              <button type="button" class="btn">O</button>
+              <button type="button" class="btn">P</button>
+            </div>
+            <div button type="button" class="btn btn-warning">
+              <button type="button" class="btn">A</button>
+              <button type="button" class="btn">L</button>
+            </div>
+           <div button type="button" class="btn btn-danger">
+              <button type="button" class="btn">A</button>
+              </div>
+            </div>
+
+            <div class="Dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">Click on Dropdown </button>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="basic.html">Basic Html</a></li>
+                <li><a class="dropdown-item" href="advanced.html">Adavanced Html</a></li>
+              </ul>
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="EmailLogin">Email address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter your email address">
+              <small id="emailaddress" class="form-text text-muted">We wont share your email with anyone.</small>
+            </div>
+            <div class="form-group">
+              <label for="Password">Cities</label>
+              <input type="text" class="form-control" id="Password" placeholder="Enter your City">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="checkin">
+              <label class="form-check-label" for="Checkin">Sign up for newsletter?</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
 
 
